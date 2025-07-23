@@ -5,7 +5,7 @@ import { Container, Nav, Navbar as BSNavbar } from 'react-bootstrap';
 const Navbar = () => (
   <BSNavbar bg="dark" variant="dark" expand="lg">
     <Container>
-      <BSNavbar.Brand as={Link} to="/">Badaga of New Zealand</BSNavbar.Brand>
+      <BSNavbar.Brand as={Link} to="/">Badagas of New Zealand</BSNavbar.Brand>
       <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
       <BSNavbar.Collapse id="navbar-nav">
         <Nav className="me-auto">
